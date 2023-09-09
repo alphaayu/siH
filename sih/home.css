@@ -1,9 +1,22 @@
-.col-lg-7{
-    padding-right: 100px;
+h1{
+    margin-right: 50px;
+    font-family: cursive;
+    text-align: center;
 }
 
-.col-md-10{
-    opacity:0.7;
+.icon{
+    margin-right: 10px;
+}
+
+.love{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.details{
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 35px;
 }
 
 .container-img{
@@ -11,15 +24,74 @@
     background-image: url('./pimcs/male-training-with-jumping-rope-river.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100hv;
 }
 
-.d-flex{
-    width:50%;
+.login{
+    opacity: 0.7;
 }
 
-h2{
+.features{
+    padding: 10%;
+}
+
+.images{
+    background-color: yellow;
+    border-radius: 20%;
+}
+
+.heading-2{
+    padding-left:39%;
+}
+
+body,  p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+/* Container Styles */
+.container-about {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* About Section Styles */
+.about-section {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* About Section Heading Styles */
+.about-section h2 {
+    font-size: 50px;
     text-align: center;
-    font-weight: bold;
-    font-family:'Times New Roman', Times, serif
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #333;
+}
+
+/* About Section Content Styles */
+.about-section p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* About Section Image Styles */
+.about-img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.container-footer{
+    margin: auto;
 }
