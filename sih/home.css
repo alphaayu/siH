@@ -20,11 +20,11 @@ h1{
 }
 
 .container-img{
-    margin: auto;
+
     background-image: url('./pimcs/male-training-with-jumping-rope-river.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100hv;
+    height: 100vh;
 }
 
 .login{
@@ -36,7 +36,7 @@ h1{
 }
 
 .images{
-    background-color: yellow;
+    background-color: black;
     border-radius: 20%;
 }
 
@@ -58,15 +58,16 @@ body {
 
 /* Container Styles */
 .container-about {
-    max-width: 960px;
+    max-width: 1300px;
     margin: 0 auto;
-    padding: 20px;
+    padding-top: 50px;
+
 }
 
 /* About Section Styles */
 .about-section {
     background-color: #fff;
-    padding: 30px;
+    padding : 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -93,5 +94,6 @@ body {
 }
 
 .container-footer{
-    margin: auto;
+    margin: auto;
 }
+
