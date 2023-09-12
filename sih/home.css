@@ -25,6 +25,7 @@ h1{
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+
 }
 
 .login{
@@ -33,6 +34,8 @@ h1{
 
 .features{
     padding: 10%;
+    
+
 }
 
 .images{
@@ -43,6 +46,7 @@ h1{
 .heading-2{
     padding-left:35%;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
 }
 
 body,  p {
@@ -62,15 +66,23 @@ body {
     max-width: 1300px;
     margin: 0 auto;
     padding-top: 50px;
+    background-color: #FFFBF5;
+    
+    
 
 }
-
+.features-p{
+    text-align: center;
+    width: 250px;
+    
+}
 /* About Section Styles */
 .about-section {
-    background-color: #fff;
+    
     padding : 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #FFFBF5;
 }
 
 /* About Section Heading Styles */
@@ -90,11 +102,29 @@ body {
 /* About Section Image Styles */
 .about-img{
     max-width: 100%;
-    height: auto;
+    height: 700px;
     margin-top: 20px;
 }
 
 .container-footer{
-    margin: auto;
+    margin:auto
 }
 
+.container-features{
+    background-color: #FFFBF5;
+
+}
+.features-p1{
+    padding-left: 1rem;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container-slide{
+    height: auto;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1300px;
+    background-color: #FFFBF5;
+
+
+}
